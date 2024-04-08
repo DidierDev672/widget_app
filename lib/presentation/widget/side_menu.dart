@@ -39,9 +39,9 @@ class _SideMenuState extends State<SideMenu> {
           padding: EdgeInsets.fromLTRB(28, hasNotch ? 0 : 20, 20, 16),
         ),
         ...appMenuItems.sublist(0, 3).map(
-              (item) => NavigationDestination(
+              (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
-                label: item.title,
+                label: Text(item.title),
               ),
             ),
         const Padding(
@@ -53,9 +53,9 @@ class _SideMenuState extends State<SideMenu> {
           child: Text('More options'),
         ),
         ...appMenuItems.sublist(3).map(
-              (item) => NavigationDestination(
+              (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
-                label: item.title,
+                label: Text(item.title),
               ),
             )
       ],
