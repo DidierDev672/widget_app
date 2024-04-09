@@ -28,7 +28,7 @@ class SnackbarScreen extends StatelessWidget {
       builder: (context) => AlertDialog(
         title: const Text('Estas seguro?'),
         content: const Text(
-          'No se cuál es la meta, pero sí sé cuál es el camino.El camino es la empatía,el entendimiento y la comprensión de los demás."',
+          'En el laberinto del tiempo, cada instante es una encrucijada de posibilidades infinitas.',
         ),
         actions: [
           TextButton(
@@ -50,7 +50,10 @@ class SnackbarScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Snackbar y Diálogos'),
+        title: Text(
+          'Los espejos son puertas hacia otros mundos, reflejando la eternidad en una instante fugaz',
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
       ),
       body: Center(
         child: Column(
@@ -62,7 +65,7 @@ class SnackbarScreen extends StatelessWidget {
                   context: context,
                   children: [
                     const Text(
-                        'No se cuál es la meta, pero sí sé cuál es el camino.El camino es la empatía,el entendimiento y la comprensión de los demás."'),
+                        'En los sueños, las palabras se convierte en aves que vuelan más allá de los limites del tiempo y el espacio.'),
                   ],
                 );
               },

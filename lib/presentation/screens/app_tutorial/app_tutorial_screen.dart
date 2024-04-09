@@ -18,17 +18,17 @@ final slides = <SlideInfo>[
   SlideInfo(
     'Busca la comida',
     'En la búsqueda de alimento, encontramos más que sustento; descubrimos la esencia misma de la vida, donde los sabores del mundo se convierten en el mapa de nuestros viajes.',
-    'assets/images/1.png',
+    'assets/Images/1.png',
   ),
   SlideInfo(
     'Entrega rápida',
     'En un mundo en constante movimiento, la entrega rápida es el puente que une la distancia entre la necesidad y la satisfacción.',
-    'assets/images/1.png',
+    'assets/Images/2.png',
   ),
   SlideInfo(
     'Busca la comida',
     'En los recodos del mundo, la búsqueda de comida nos lleva a descubrir sabores exóticos y recetas ancestrales que nos conectan con la historia de la humanidad.',
-    'assets/images/1.png',
+    'assets/Images/3.png',
   ),
 ];
 
