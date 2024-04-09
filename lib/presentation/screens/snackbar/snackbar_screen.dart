@@ -10,7 +10,10 @@ class SnackbarScreen extends StatelessWidget {
     ScaffoldMessenger.of(context).clearSnackBars();
 
     final snackBar = SnackBar(
-      content: const Text('Hola Mundo'),
+      content: Text(
+        'Los espejos son puertas hacia otros mundos, reflejando la eternidad en una instante fugaz',
+        style: Theme.of(context).textTheme.titleMedium,
+      ),
       action: SnackBarAction(
         label: 'Ok!',
         onPressed: () {},
@@ -51,7 +54,7 @@ class SnackbarScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Los espejos son puertas hacia otros mundos, reflejando la eternidad en una instante fugaz',
+          'Snackbar y diálogos',
           style: Theme.of(context).textTheme.titleMedium,
         ),
       ),
